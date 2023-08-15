@@ -68,7 +68,7 @@ const server = http
     <title>Demo App</title>
   </head>
   <body>
-    <h1>Demo App (Staging)</h1>
+    <h1>Demo App (Stage)</h1>
     <form method="POST">
       <button type="submit" name="intent" value="decrement">-</button>
       <span>${currentCount.count}</span>
