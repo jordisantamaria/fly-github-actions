@@ -44,7 +44,7 @@ RUN npm run build
 FROM base
 
 ENV DATABASE_URL="file:/data/sqlite.db"
-ENV PORT="8080"
+ENV PORT="3000"
 ENV NODE_ENV="production"
 
 # Make SQLite CLI accessible via fly ssh console
